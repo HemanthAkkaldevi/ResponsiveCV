@@ -1,6 +1,5 @@
-
-google.maps.event.addDomListener(window, 'load', init);
 function init() {
+    google.maps.event.addDomListener(window, 'load', init);
     var mapOptions = {
         zoom: 17,
         scrollwheel: false,
