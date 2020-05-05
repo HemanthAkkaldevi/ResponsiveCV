@@ -2986,6 +2986,18 @@ BLOG Pagination
     padding: 10px;
 }
 
+.mh-intro{
+    padding-left: 12px;
+}
+
+.mh-outro{
+    padding-left: 12px;
+}
+
+.mh-blog-title{
+    padding-left: 12px;
+}
+
 .mh-blog-post-info ul li {
   display: inline-block;
   margin: 0 6px;
