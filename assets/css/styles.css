@@ -2850,6 +2850,113 @@ li .fa {
   margin-left: 6px;
 }
 
+
+/*
+    ==============
+       Blog test
+    ==============
+*/
+
+.heading {
+    text-align: center;
+}
+.cardbackground{
+    -webkit-transition: 0.3s;	
+  transition: 0.3s;	
+  border-radius: 10px 10px 0px 0px;	
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);	
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);	
+  margin-bottom: 30px;	
+  border-bottom-left-radius: 4px;	
+  border-bottom-right-radius: 4px;
+}
+.card{
+    position: relative;
+    background: #1a1c20;
+    width: 670px;
+    height: 680px;
+    margin: 0 auto;
+}
+
+.card .content{
+    widows: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.para{
+    padding: 20px;
+}
+
+.button{
+    padding-left: 250px;
+}
+
+.card .slidertext{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.swiper-slide{
+    width: 4px;
+}
+
+.editor-name{
+    color: aqua;
+}
+
+
+/*	
+    ==============	
+       BLOG	
+    ==============	
+*/	
+.mh-blog .mh-blog-item {	
+  -webkit-transition: 0.3s;	
+  transition: 0.3s;	
+  border-radius: 10px 10px 0px 0px;	
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);	
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);	
+  margin-bottom: 30px;	
+  border-bottom-left-radius: 4px;	
+  border-bottom-right-radius: 4px;	
+}	
+.mh-blog .mh-blog-item:hover {	
+  -webkit-transition: 0.3s;	
+  transition: 0.3s;	
+}	
+.mh-blog .mh-blog-item .blog-inner {	
+  padding: 0px 20px;	
+  padding-bottom: 30px;
+    text-align: center;
+}	
+.mh-blog .mh-blog-item .blog-inner h2 a {	
+  color: #fff;
+}	
+.mh-blog .mh-blog-item .blog-inner a {	
+  color: #0bceaf;
+}	
+.mh-blog .mh-blog-item img {	
+  margin-bottom: 30px;	
+}	
+.mh-blog .mh-blog-item h2 {	
+  font-size: 24px;	
+  line-height: 32px;	
+  font-weight: 600;	
+  margin-bottom: 10px;	
+  color: #fff;	
+}	
+.mh-blog .mh-blog-item h2 a {	
+  color: #0bceaf;	
+}	
+.mh-blog .mh-blog-item h2 a:hover {	
+  color: #0ac4a7;	
+}	
+
 /*
 =================
 BLOG Pagination
@@ -2977,6 +3084,7 @@ BLOG Pagination
 
 .mh-blog-post-info {
   margin-bottom: 10px;
+    text-align: center;
 }
 .mh-blog-post-inner-info{
     padding: 10px;
