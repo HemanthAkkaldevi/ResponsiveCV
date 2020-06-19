@@ -3088,10 +3088,21 @@ BLOG Pagination
 }
 .mh-blog-post-inner-info{
     padding: 10px;
+    text-align: left;
 }
 
 .mh-blog-post-inner-info-biking{
     padding: 10px;
+    text-align: left;
+}
+
+.mh-blog-post-inner-info-pvc{
+    padding: 10px;
+    text-align: left;
+}
+
+.measurements-align{
+    padding-left: 12px ;  
 }
 
 .mh-intro{
@@ -3100,7 +3111,13 @@ BLOG Pagination
 
 .mh-outro{
     padding-left: 12px;
+    text-align: left;
 }
+
+.mh-outro-1{
+    text-align: left;
+}
+
 
 .mh-blog-title{
     padding-left: 12px;
