@@ -1716,6 +1716,11 @@ li .fa {
   transition: 0.3s;
 }
 
+.building{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
 /*
     ==============
       FOOTER ONE
